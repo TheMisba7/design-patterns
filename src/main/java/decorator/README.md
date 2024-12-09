@@ -3,8 +3,11 @@
 
 - **Decorator** is a structural design pattern that lets you attach new behaviors to objects by placing these objects inside special wrapper objects that contain the behaviors.
 
-      For example you have a basic notifier class that sends notifications by email. Over time, you want to extend the types of notifications,
-      such as sending notifications via, SMS, Slack, Whatsapp, etc. Rather than modifying the original  email notifier class whenever a new type of notification is needed, you can use the Decorator Pattern to wrap additional behaviors around the base notification system.
+      For example you have a basic notifier class that sends notifications by email.
+      Over time, you want to extend the types of notifications,
+      such as sending notifications via, SMS, Slack, Whatsapp, etc. Rather than modifying the original
+      email notifier class whenever a new type of notification is needed
+      you can use the Decorator Pattern to wrap additional behaviors around the base notification system.
 
 <h3> Solution</h3>
 
